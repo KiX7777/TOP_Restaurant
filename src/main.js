@@ -18,19 +18,19 @@ export function init() {
   const contact = document.querySelector('.contact');
   const content = document.getElementById('content');
 
-  // about.addEventListener('click', function (e) {
-  //   console.log(e);
-  //   content.textContent = '';
-  //   tabs();
-  //   aboutUs();
-  //   footer();
-  // });
+  about.addEventListener('click', function (e) {
+    console.log(e);
+    content.textContent = '';
+    tabs();
+    aboutUs();
+    footer();
+  });
 
-  // menu.addEventListener('click', function (e) {
-  //   console.log(e);
-  //   content.textContent = '';
-  //   tabs();
-  //   showMenu();
-  //   footer();
-  // });
+  menu.addEventListener('click', function (e) {
+    console.log(e);
+    content.textContent = '';
+    tabs();
+    showMenu();
+    footer();
+  });
 }
