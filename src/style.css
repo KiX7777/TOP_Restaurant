@@ -91,3 +91,26 @@ footer {
 .slika img {
   width: 80%;
 }
+
+.desno {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  flex: 1;
+  padding: 8rem;
+  text-align: justify;
+}
+
+.lijevo {
+  flex: 1;
+  text-align: center;
+}
+
+.meni {
+  flex: 1;
+}
+
+.meni img {
+  margin-left: 10rem;
+  width: 50%;
+  height: 50%;
+}

@@ -15,14 +15,17 @@ export function createTabs() {
   const tab1 = document.createElement('a');
   tab1.setAttribute('href', '#');
   tab1.className = 'tab';
+  tab1.classList.add('about');
   tab1.textContent = 'ABOUT';
   const tab2 = document.createElement('a');
   tab2.setAttribute('href', '#');
   tab2.className = 'tab';
+  tab2.classList.add('menu');
   tab2.textContent = 'MENU';
   const tab3 = document.createElement('a');
   tab3.setAttribute('href', '#');
   tab3.className = 'tab';
+  tab3.classList.add('contact');
   tab3.textContent = 'CONTACT';
 
   unList.append(tab1, tab2, tab3);
