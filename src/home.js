@@ -1,6 +1,6 @@
 'use strict';
 
-export function createHero() {
+export function renderHome() {
   const content = document.getElementById('content');
 
   const heroEl = document.createElement('div');

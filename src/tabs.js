@@ -12,6 +12,11 @@ export function createTabs() {
   const unList = document.createElement('ul');
   navBar.appendChild(unList);
 
+  const tab0 = document.createElement('a');
+  tab0.setAttribute('href', '#');
+  tab0.className = 'tab';
+  tab0.classList.add('home');
+  tab0.textContent = 'HOME';
   const tab1 = document.createElement('a');
   tab1.setAttribute('href', '#');
   tab1.className = 'tab';
@@ -28,5 +33,5 @@ export function createTabs() {
   tab3.classList.add('contact');
   tab3.textContent = 'CONTACT';
 
-  unList.append(tab1, tab2, tab3);
+  unList.append(tab0, tab1, tab2, tab3);
 }
