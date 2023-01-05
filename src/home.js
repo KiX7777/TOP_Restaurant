@@ -1,4 +1,5 @@
 'use strict';
+import slikaPizze from '/pizza.svg';
 
 export function renderHome() {
   const content = document.getElementById('content');
@@ -19,7 +20,8 @@ export function renderHome() {
   heroEl.append(natpisDiv, slikaDiv);
 
   const slika = document.createElement('img');
-  slika.setAttribute('src', 'pizza.svg');
+  slika.setAttribute('src', slikaPizze);
+  slika.setAttribute('crossorigin', '');
   slika.setAttribute('alt', 'logo restorana');
   slikaDiv.appendChild(slika);
 }
